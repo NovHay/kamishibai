@@ -1,0 +1,248 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>ポイすてだいちゃん</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+<style type="text/css">
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+html {
+	/*font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;*/
+	font-family: 'Noto Sans Japanese', serif;
+	font-size: 14px;
+	line-height: 1.3;
+}
+.ui-header .ui-title, .ui-btn {
+	overflow: visible !important;
+	white-space: normal !important;
+}
+li {
+	overflow: visible !important;
+	white-space: normal !important;
+}
+.ui-content img#coverGraphic {
+	width: 100%;
+}
+.ui-footer {
+	font-weight: normal;
+	font-size: .9em;
+	text-align: center;
+}
+.bamen {
+	background-color: #eeeeee;
+}
+.bamen img {
+	width: 100%;
+}
+.bamen .bamenBango {
+	text-align: center;
+	padding-top: 0.3em;
+}
+dt {
+	font-weight: 600;
+}
+@media screen and (min-width: 321px) {
+.w560h315 {
+	width: 315px;
+	height: 177px;
+}
+.w420h315 {
+	width: 315px;
+	height: 236px;
+}
+}
+@media screen and (max-width: 320px) {
+.w560h315 {
+	width: 251px;
+	height: 141px;
+}
+.w420h315 {
+	width: 251px;
+	height: 188px;
+}
+}
+</style>
+</head>
+
+<body>
+<div data-role="page" data-fullscreen="true">
+  <div data-role="header" data-position="fixed">
+    <h1>ポイすてだいちゃん</h1>
+  </div>
+  <div role="main" class="ui-content"> <img src="img/1f.png" id="coverGraphic">
+    <h2>ポイすてだいちゃん</h2>
+    <h3>作品紹介</h3>
+    <dl>
+      <dt>あらすじ</dt>
+      <dd>海に空き缶をポイ捨てしてしまっただいちゃんは、魔法使いのおばさんに魚に変えられてしまいます。海に投げ出されただいちゃんは、海の底がゴミで汚いのに驚きます。と、そこへ突然缶のおばけが現れて、だいちゃんを食べてしまおうとします。だいちゃんは、無事、缶のおばけから逃げられるのでしょうか。そして、汚れた海はどうなるのでしょうか。</dd>
+      <dt>制作年</dt>
+      <dd>2009</dd>
+      <dt>脚本</dt>
+      <dd>茨城大学紙芝居研究会</dd>
+      <dt>画</dt>
+      <dd>茨城大学紙芝居研究会</dd>
+      <dt>場面</dt>
+      <dd>13場面</dd>
+    </dl>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+      <h2>ポイすてだいちゃん　動画（準備中）</h2>
+    </section>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-collapsed="true" id="gaKyakuhon">
+      <h2>ポイすてだいちゃん　画・脚本</h2>
+      <section class="bamen">
+        <div class="bamenBango">#1</div>
+        <img src="img/1f.png">
+        <div class="serifu">
+          <p>あるところにだいちゃんという男の子がいました。</p>
+          <p>だいちゃん「じゅーすおいしかったぁ。ゴミ箱に捨てるのもめんどくさいし、海へ投げちゃえ！」</p>
+          <p>そう言うと、だいちゃんはポイっと観を海に捨ててしまいました。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#2</div>
+        <img src="img/2f.png">
+        <div class="serifu">
+          <p>そこへ近所で有名なガミガミおばさんがやってきました。</p>
+          <p>ガミガミおばさん「コラ！　だいちゃん。今、海に空き缶を捨てたでしょう」</p>
+          <p>おばさんはだいちゃんにたずねました。</p>
+          <p>だいちゃん「なんでそんなことわかったんだよー」</p>
+          <p>ガミガミおばさん「おばさんには何でもお見通しなのよ」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#3</div>
+        <img src="img/3f.png">
+        <div class="serifu">
+          <p>ガミガミおばさん「あのね、だいちゃん。海はだいちゃんだけのものではないくて、地球に居るみんなのものなのよ。水が汚れると海に住む生き物が住めなくなってしまうの。それに、（あまり汚くすると、）人間だって水が飲めなくなってしまうわ」</p>
+          <p>でもだいちゃんは納得できません。</p>
+          <p>だいちゃん「ぼくひとりが捨てたって何も変わらないよ！　それに水が飲めなくたって、ジュースがあるじゃないか！」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#4</div>
+        <img src="img/4f.png">
+        <div class="serifu">
+          <p>ガミガミおばさん「だいちゃん、何を行ってもわからないなら、こうするしかないわね」</p>
+          <p>ガミガミおばさんは、魔法使いに変身すると、だいちゃんに呪文を唱え始めました。</p>
+          <p>魔法使い「シードロシードロクリーンクリーン」</p>
+          <p>魔法使いが星のステッキをふってだいちゃんに魔法をかけたその時…</p>
+          <p>（さっと抜く）</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#5</div>
+        <img src="img/5f.png">
+        <div class="serifu">
+          <p>なんと、だいちゃんは小さな魚になってしまったのです。</p>
+          <p>だいちゃん「うわー！　なんだこれー！」</p>
+          <p>魔法使い「少しは魚の気持ちになって反省しなさい」</p>
+          <p>魔法使いのおばさんは、だいちゃんを海へほうりなげるとどこかへ消えてしまいました。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#6</div>
+        <img src="img/6f.png">
+        <div class="serifu">
+          <p>海の中にもぐってみると、だいちゃんはびっくり。海の中は空き缶やゴミでいっぱいだったのです。</p>
+          <p>だいちゃん「汚いなぁ。ゴミがいっぱいで水はまずいし、暗くて前が見えないよ。こわいなぁ」</p>
+          <p>だいちゃんは、今にも泣き出してしまいそうです。それでも水中を進んでいくと、だいちゃんは、バケツにひっかかってしまいました。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#7</div>
+        <img src="img/7f.png">
+        <div class="serifu">
+          <p>だいちゃんが化け越から出ようとしていると、ゴミの中から変な声が聞こえてきました。</p>
+          <p>缶のおばけ「めずらしくてうまそうな魚だなあ。今日の夕食にぴったりだ」</p>
+          <p>（さっと抜く）</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#8</div>
+        <img src="img/8f.png">
+        <div class="serifu">
+          <p>なんとそこには缶のおばけが立っていたのです。</p>
+          <p>だいちゃん「うわぁ、こっちにこないでよー！」</p>
+          <p>だいちゃんは、いそいで缶のおばけから逃げようとしました。</p>
+          <p>缶のおばけ「さあ、ごちゃごちゃ言ってないで、こっちへ来るんだ」</p>
+          <p>缶のおばけはだいちゃんにだんだん近づいてきます。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#9</div>
+        <img src="img/9f.png">
+        <div class="serifu">
+          <p>缶のおばけ「これでもくらえ」</p>
+          <p>缶のおばけはふたの中から汚いゴミを出してだいちゃんにあびせました。</p>
+          <p>だいちゃん「だれか助けてー！！」</p>
+          <p>だいちゃんが叫ぶと、向こうの方から魔法使いのおばさんの声がしました。</p>
+          <p>魔法使い「だいちゃんが捨てた空き缶がこのおばけの体になっているのよ。少しは反省したでしょう。これを使ってみなさい」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#10</div>
+        <img src="img/10f.png">
+        <div class="serifu">
+          <p>魔法使いのおばさんは、だいちゃんにお助けアイテムを出してくれました。</p>
+          <p>魔法使い「これは私の魔法で作ったおそうじパオパオよ。この子で海の中のゴミを吸い取って、きれいにしちゃいましょう」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#11</div>
+        <img src="img/11f.png">
+        <div class="serifu">
+          <p>だいちゃんはおそうじパオパオに飛び乗りました。</p>
+          <p>だいちゃん「よーし。スイッチ・オン！」</p>
+          <p>すると、おそうじパオパオがゴミを吸い取り始めました。</p>
+          <p>だいちゃん「こめこめスイスイ　クリーンクリーン　みんなきれいになーれ！」</p>
+          <p>缶のおばけ「わー！　吸い取られるぅーー」</p>
+          <p>こうして、海の汚れもゴミも缶のおばけも、みんなきれいになりました。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#12</div>
+        <img src="img/12f.png">
+        <div class="serifu">
+          <p>魔法使い「だいちゃん、よくやったわね。ゴミがなくなって、海がきれいになったわ。それじゃあだいちゃんも元の姿に戻してあげる」</p>
+          <p>魔法使いのおばさんは再びあの呪文を唱えました。</p>
+          <p>魔法使い「シードロシードロ　クリーンクリーン」</p>
+          <p>（間）</p>
+          <p>そしてだいちゃんは元の人間の姿に戻ったのでした。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#13</div>
+        <img src="img/13f.png">
+        <div class="serifu">
+          <p>元に戻っただいちゃんは、自分の捨てた空き缶をゴミ箱に捨てました。</p>
+          <p>そしておそうじパオパオの力できれいになった海を見て言いました。</p>
+          <p>だいちゃん「ゴミのない海ってこんなにキレイなんだね」</p>
+          <p>ガミガミおばさん「そうよ。汚れていない本当の海は、こんなにキレイなの。だから海を汚しては絶対にいけないのよ。みんなの大切な海を守るためにも、ゴミはきちんとゴミ箱へ捨てましょうね」</p>
+          <p>だいちゃん「はーい」</p>
+          <p>こうしてゴミをきちんと捨てることの大切さを知っただいちゃんは、もう二度とポイ捨てなんてしませんでしたとさ。</p>
+          <p>おしまい</p>
+        </div>
+      </section>
+      <a href="#" class="ui-btn ui-icon-arrow-u" id="btn_gaKyakuhonTojiru">閉じる</a>
+    </section>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+      <h2>ポイすてだいちゃん　PDF</h2>
+      <p>以下のリンクから、『ポイすてだいちゃん』のPDFデータをダウンロードできます（表・裏ともに）。</p>
+      <p>ダウンロードして印刷し、厚紙などに貼ってご利用下さい。</p>
+      <p><a href="zip/poisutedaichan.zip" rel="external">『ポイすてだいちゃん）』（zipデータ　約18MB）</a></p>
+    </section>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <p>茨城大学紙芝居研究会</p>
+  </div>
+</div>
+<script type="text/javascript">
+$('#btn_gaKyakuhonTojiru').on('click', function(){$('#gaKyakuhon').collapsible({collapsed: true});});
+</script>
+</body>
+</html>
