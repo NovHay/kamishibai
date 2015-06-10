@@ -4,6 +4,8 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>橋谷物語（前編）</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
 <link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
 <script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
 <script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
@@ -94,7 +96,7 @@ dt {
       <iframe class="w420h315"src="//www.youtube.com/embed/7v3TYTzFWKo" frameborder="0" allowfullscreen></iframe>
     </section>
     <!--    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-collapsed="false">-->
-    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-collapsed="true">
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-collapsed="true" id="gaKyakuhon">
       <h2>橋谷物語（前編）　画・脚本</h2>
       <section class="bamen">
         <div class="bamenBango">#1</div>
@@ -218,6 +220,7 @@ dt {
           <p>つづく</p>
         </div>
       </section>
+      <a href="#" class="ui-btn ui-icon-arrow-u" id="btn_gaKyakuhonTojiru">閉じる</a>
     </section>
     <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
       <h2>橋谷物語（前編）　PDF</h2>
@@ -230,5 +233,8 @@ dt {
     <p>茨城大学紙芝居研究会</p>
   </div>
 </div>
+<script type="text/javascript">
+$('#btn_gaKyakuhonTojiru').on('click', function(){$('#gaKyakuhon').collapsible({collapsed: true});});
+</script>
 </body>
 </html>
