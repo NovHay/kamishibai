@@ -1,0 +1,269 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>どんちゃん　どこいくの？</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+<style type="text/css">
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+html {
+	/*font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;*/
+	font-family: 'Noto Sans Japanese', serif;
+	font-size: 14px;
+	line-height: 1.3;
+}
+.ui-header .ui-title, .ui-btn {
+	overflow: visible !important;
+	white-space: normal !important;
+}
+li {
+	overflow: visible !important;
+	white-space: normal !important;
+}
+.ui-content img#coverGraphic {
+	width: 100%;
+}
+.ui-footer {
+	font-weight: normal;
+	font-size: .9em;
+	text-align: center;
+}
+.bamen {
+	background-color: #eeeeee;
+}
+.bamen img {
+	width: 100%;
+}
+.bamen .bamenBango {
+	text-align: center;
+	padding-top: 0.3em;
+}
+dt {
+	font-weight: 600;
+}
+
+@media screen and (min-width: 321px) {
+.w560h315 {
+	width: 315px;
+	height: 177px;
+}
+.w420h315 {
+	width: 315px;
+	height: 236px;
+}
+}
+@media screen and (max-width: 320px) {
+.w560h315 {
+	width: 251px;
+	height: 141px;
+}
+.w420h315 {
+	width: 251px;
+	height: 188px;
+}
+}
+</style>
+</head>
+
+<body>
+<div data-role="page" data-fullscreen="true">
+  <div data-role="header" data-position="fixed">
+    <h1>どんちゃん　どこいくの？</h1>
+  </div>
+  <div role="main" class="ui-content">
+  	<img src="img/1f.png" id="coverGraphic">
+    <h2>どんちゃん　どこいくの？</h2>
+    <h3>作品紹介</h3>
+    <dl>
+      <dt>あらすじ</dt>
+      <dd>臭くて汚いうんちのどんちゃん。しりあった水のしーちゃんと一緒にどんちゃんは旅をする……、生まれ変わるための旅を。</dd>
+      <dt>制作年</dt>
+      <dd>2010</dd>
+      <dt>脚本</dt>
+      <dd>茨城大学紙芝居研究会</dd>
+      <dt>画</dt>
+      <dd>茨城大学紙芝居研究会</dd>
+      <dt>場面</dt>
+      <dd>12場面</dd>
+    </dl>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+      <h2>どんちゃん　どこいくの？　動画（準備中）</h2>
+      <!--<iframe class="w420h315"src="//www.youtube.com/embed/7v3TYTzFWKo" frameborder="0" allowfullscreen></iframe>-->
+    </section>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-collapsed="true" id="gaKyakuhon">
+      <h2>どんちゃん　どこいくの？　画・脚本</h2>
+      <section class="bamen">
+        <div class="bamenBango">#1</div>
+        <img src="img/1f.png">
+        <div class="serifu">
+          <p>「どんちゃん　どこいくの？」</p>
+          <p>みんなの・お家の・トイレの中。今日も・大きな・うんちが・プカリ。</p>
+          <p>どんちゃん「ぼくは、うんちのどんちゃん。臭くて、汚くて…。ぼく、どうしてうんちに生まれたの？……これから、どうなるんだろう。」</p>
+          <p>（抜きながら）</p>
+          <p>ジャーーーーーーッ </p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#2</div>
+        <img src="img/2f.png">
+        <div class="serifu">
+          <p>ぐるーん・ぐるぐる・どんちゃんは・トイレの・おくへ・流されて…？</p>
+          <p>しーちゃん「あ！　君は、さっき落っこちてきた、ウンチ？」</p>
+          <p>どんちゃん「そう。ぼくは・うんちの・どんちゃん。」</p>
+          <p>しーちゃん「アタイは・お水の・しーちゃんさ。一緒に・行こうよ！」</p>
+          <p>どんちゃん「どこへ？」</p>
+          <p>しーちゃん「分からないけど…。」</p>
+          <p>どんちゃん「ぼくは・汚くて・臭いでしょ？　ぼくが・居て良い場所、あるの？」</p>
+          <p>（ゆっくり引きながら）</p>
+          <p>どんちゃん「ぶつぶつぶつぶつ……」 </p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#3</div>
+        <img src="img/3f.png">
+        <div class="serifu">
+          <p>しーちゃん「ど…どんちゃん！　どんちゃん！　つまってるよ〜！」</p>
+          <p>どんちゃん「ぼくのせいじゃないやい」</p>
+          <p>よく見ると、ティッシュや・おもちゃが・邪魔をして・どんちゃん・ひっかかった・みたい。</p>
+          <p>しーちゃん「しかたないな、じゃあ押すよ？！　せーの、えい！」</p>
+          <p>するーーん（引く）</p>
+          <p>どんちゃん「人間が、変なの・流すから・悪いんだ。」</p>
+          <p>いじけて・しまった・どんちゃんと・はげましながら、しーちゃんは、流れ・流れて</p>
+          <p>（抜きながら）</p>
+          <p>行く途中…… </p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#4</div>
+        <img src="img/4f.png">
+        <div class="serifu">
+          <p>どんちゃん「あ、あれは・ねずみさん！？？」</p>
+          <p>ねずみ「たすけてぇ！　足を・すべらせたの！」</p>
+          <p>どんちゃん「大変だ！」</p>
+          <p>しーちゃん「助けて・あげよう！　どんちゃん・いくよ！」</p>
+          <p>どんちゃん・しーちゃん「せーのっ」</p>
+          <p>（抜きながら）</p>
+          <p>ざっぱーーん！！</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#5</div>
+        <img src="img/5f.png">
+        <div class="serifu">
+          <p>力をあわせて、どんちゃん・しーちゃん、ねずみさんを・おしあげた！</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#6</div>
+        <img src="img/6f.png">
+        <div class="serifu">
+          <p>ネズミ「ふたりとも、ありがとう！　もしかして、「下水処理場」に・行くところ？」</p>
+          <p>しーちゃん「ゲスイ・ショリジョウ？　なあに・それ？」</p>
+          <p>ネズミ「ふたりが・生まれ変わるところさ！」</p>
+          <p>どんちゃん「ぼくも？！」</p>
+          <p>ネズミ「ああ、そうだよ！　いってらっしゃい！」</p>
+          <p>ふたりは、とっても・はりきって、どんどん・流れて・ずんずん進み</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#7</div>
+        <img src="img/7f.png">
+        <div class="serifu">
+          <p>ついに・下水処理場に・到着です！</p>
+          <p>どんちゃん「ぼくらは、まず、どこ行くの？」</p>
+          <p>しーちゃん「どうやら・砂やら・どろんこが、ぶくぶく沈んでいく・お部屋。」</p>
+          <p>どんちゃん「それから・それから・どこ行くの？」</p>
+          <p>しーちゃん「…誰かが・どんちゃん・食べるみたい…！？」</p>
+          <p>どんちゃん「えーーー？！　た、食べられるゥ？！」</p>
+          <p>微生物「そうだ！　お前は・食べられる！」</p>
+          <p>（素早く抜く）</p>
+          <p>（拍子木2回） </p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#8</div>
+        <img src="img/8f.png">
+        <div class="serifu">
+          <p>しーちゃん「君は誰？！」</p>
+          <p>微生物「俺たちゃ・タンクの・微生物！　どんちゃん・とやら、覚悟しろ！」</p>
+          <p>わらわら・たくさん・微生物！</p>
+          <p>どんちゃん・めがけて・まっしぐら！</p>
+          <p>（抜きながら）</p>
+          <p>どんちゃん「わーーーっ！」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#9</div>
+        <img src="img/9f.png">
+        <div class="serifu">
+          <p>ぷくぷく・空気も・手伝って、どんちゃん・どんどん・食べられる！</p>
+          <p>どんちゃん「きゃーーー！　たすけて！！」</p>
+          <p>あれあれ、でもでも、よく見てごらん　どんちゃん・小さな・つぶつぶに……。</p>
+          <p>（全て抜く）</p>
+          <p>しーちゃん「どんちゃん、たくさん・できちゃった！」</p>
+          <p>微生物「よーし、これで・大丈夫。どんちゃん、お前は、生まれ変わるよ。」</p>
+          <p>どんちゃん「えっ本当？」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#10</div>
+        <img src="img/10f.png">
+        <div class="serifu">
+          <p>けれども・どんちゃん、体が重くて　だんだん・底へ・沈んで・ゆきます。</p>
+          <p>しーちゃん「どうやら・ここで・お別れみたい。さみしいけれど・ここで・サヨナラ」</p>
+          <p>どんちゃん「しーちゃん、今までありがとう。生まれ変わった・僕のこと、見せてあげたかったな。」</p>
+          <p>しーちゃんは、タンクの中でピカピカに。川へ流れてゆきました。</p>
+          <p>そして、どんちゃんはというと…。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#11</div>
+        <img src="img/11f.png">
+        <div class="serifu">
+          <p>どんちゃん「あれ？　生まれ変わったはずなのに…。臭い臭いはしないけど、僕、茶色いまんまだ…　きっと、生まれ変われなかったんだ！」</p>
+          <p>しーちゃん「そんなことないよ！」</p>
+          <p>どんちゃん「その声は、しーちゃん？！」</p>
+          <p>しーちゃん「上を見てごらんよ！」</p>
+          <p>どんちゃん「あっ！！」</p>
+          <p>（拍子木2回）</p>
+          <p>（素早く抜く） </p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#12</div>
+        <img src="img/12f.png">
+        <div class="serifu">
+          <p>どんちゃんが上を見上げると、そこには美しい花が咲いていたのです！</p>
+          <p>どんちゃんは、栄養たっぷりの土へと、生まれ変わったのでした。</p>
+          <p>しーちゃん「どんちゃんとアタイたちの力で、この花が咲いたんだ！」</p>
+          <p>どんちゃん「すごいな…ぼくも誰かの役に・立てたんだ！」</p>
+          <p>（少しの間）</p>
+          <p>こうして・どんちゃんと・しーちゃんは　長い旅を・終えたのでした。</p>
+          <p>みんなも、自分のうんちがどうなっていくのか、想像してみてね。</p>
+          <p>おしまい</p>
+        </div>
+      </section>
+      <a href="#" class="ui-btn ui-icon-arrow-u" id="btn_gaKyakuhonTojiru">閉じる</a>
+    </section>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+      <h2>どんちゃん　どこいくの？　PDF</h2>
+      <p>以下のリンクから、『どんちゃん　どこいくの？』のPDFデータをダウンロードできます（表・裏ともに）。</p>
+      <p>ダウンロードして印刷し、厚紙などに貼ってご利用下さい。</p>
+      <p><a href="zip/donchan.zip" rel="external">『どんちゃん　どこいくの？』（zipデータ　約19MB）</a></p>
+    </section>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <p>茨城大学紙芝居研究会</p>
+  </div>
+</div>
+<script type="text/javascript">
+$('#btn_gaKyakuhonTojiru').on('click', function(){$('#gaKyakuhon').collapsible({collapsed: true});});
+</script>
+</body>
+</html>
+

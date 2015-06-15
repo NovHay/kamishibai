@@ -1,0 +1,227 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>ボクトロボット</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+<style type="text/css">
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+html {
+	/*font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;*/
+	font-family: 'Noto Sans Japanese', serif;
+	font-size: 14px;
+	line-height: 1.3;
+}
+.ui-header .ui-title, .ui-btn {
+	overflow: visible !important;
+	white-space: normal !important;
+}
+li {
+	overflow: visible !important;
+	white-space: normal !important;
+}
+.ui-content img#coverGraphic {
+	width: 100%;
+}
+.ui-footer {
+	font-weight: normal;
+	font-size: .9em;
+	text-align: center;
+}
+.bamen {
+	background-color: #eeeeee;
+}
+.bamen img {
+	width: 100%;
+}
+.bamen .bamenBango {
+	text-align: center;
+	padding-top: 0.3em;
+}
+dt {
+	font-weight: 600;
+}
+@media screen and (min-width: 321px) {
+.w560h315 {
+	width: 315px;
+	height: 177px;
+}
+.w420h315 {
+	width: 315px;
+	height: 236px;
+}
+}
+@media screen and (max-width: 320px) {
+.w560h315 {
+	width: 251px;
+	height: 141px;
+}
+.w420h315 {
+	width: 251px;
+	height: 188px;
+}
+}
+</style>
+</head>
+
+<body>
+<div data-role="page" data-fullscreen="true">
+  <div data-role="header" data-position="fixed">
+    <h1>ボクトロボット</h1>
+  </div>
+  <div role="main" class="ui-content"> <img src="img/1f.png" id="coverGraphic">
+    <h2>ボクトロボット</h2>
+    <h3>作品紹介</h3>
+    <dl>
+      <dt>あらすじ</dt>
+      <dd>男の子とロボットは大の仲良し。ロボットはいつでも男の子を助けてくれる。でも本当に助けてくれているのかな……</dd>
+      <dt>制作年</dt>
+      <dd>2011</dd>
+      <dt>脚本</dt>
+      <dd>鈴木兼人</dd>
+      <dt>画</dt>
+      <dd>鈴木兼人</dd>
+      <dt>場面</dt>
+      <dd>13場面</dd>
+    </dl>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+      <h2>ボクトロボット　動画（準備中）</h2>
+    </section>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-collapsed="true" id="gaKyakuhon">
+      <h2>ボクトロボット　画・脚本</h2>
+      <section class="bamen">
+        <div class="bamenBango">#1</div>
+        <img src="img/1f.png">
+        <div class="serifu">
+          <p>「ボクトロボット」</p>
+          <p>あるところに男の子とロボットがいました。</p>
+          <p>二人はとてもなかよしでした。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#2</div>
+        <img src="img/2f.png">
+        <div class="serifu">
+          <p>大変です！</p>
+          <p>お部屋が散らかっていて、このままではお母さんにしかられてしまいます。</p>
+          <p>そんなときもーー</p>
+          <p>シャキーン・ジャキーン、ウニャーン</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#3</div>
+        <img src="img/3f.png">
+        <div class="serifu">
+          <p>ロボットがいれば大丈夫。</p>
+          <p>掃除機に変形！！</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#4</div>
+        <img src="img/4f.png">
+        <div class="serifu">
+          <p>男の子は掃除機ロボットを使って、部屋をキレイにしました。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#5</div>
+        <img src="img/5f.png">
+        <div class="serifu">
+          <p>ケンカのときもロボットがいれば大丈夫。</p>
+          <p>ジャキーン・ジャキーン、ギャーン</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#6</div>
+        <img src="img/6f.png">
+        <div class="serifu">
+          <p>安全第一・ロボソードに変形！</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#7</div>
+        <img src="img/7f.png">
+        <div class="serifu">
+          <p>男の子はロボソードを使って、ケンカに勝つことができました。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#8</div>
+        <img src="img/8f.png">
+        <div class="serifu">
+          <p>高いところにあるおかしをとりたい時も、ロボットがいれば大丈夫。</p>
+          <p>ジャキーン・ジャキーン、バビューン</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#9</div>
+        <img src="img/9f.png">
+        <div class="serifu">
+          <p>かいだんに変形！！</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#10</div>
+        <img src="img/10f.png">
+        <div class="serifu">
+          <p>男の子はかいだんを登って、おかしをとることができました。</p>
+          <p>ですが、男の子はいいました。</p>
+          <p>男の子「ロボ、手届いてない？」</p>
+          <p>ロボット「届いてますなあ」</p>
+          <p>男の子「だったらとってくれればいいじゃん」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#11</div>
+        <img src="img/11f.png">
+        <div class="serifu">
+          <p>男の子「ケンカも相似も、ロボがやってくれればいいじゃん！」</p>
+          <p>ロボット「何を言うのですか。人間がなまけないように、わざと道具に変形しているのです」</p>
+          <p>男の子「本当に？」</p>
+          <p>男の子は尋ねました。</p>
+          <p>シャキーン、ジャキーン、グニャーン</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#12</div>
+        <img src="img/12f.png">
+        <div class="serifu">
+          <p>ロボット「うそですね。たまたま思いついただけであります」</p>
+          <p>男の子は怒りました。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#13</div>
+        <img src="img/13f.png">
+        <div class="serifu">
+          <p>男の子「ボクは怒ったぞー！！」</p>
+          <p>男の子のパンチがサクレツしました。</p>
+          <p>ロボット「ほら、ロボに頼らなかったお陰で、こんなに強力なパンチが」</p>
+          <p>男の子「うるさい！」</p>
+          <p>二人はケンカしながらも仲良くくらしていきましたとさ。</p>
+          <p>（おしまい）</p>
+        </div>
+      </section>
+      <a href="#" class="ui-btn ui-icon-arrow-u" id="btn_gaKyakuhonTojiru">閉じる</a>
+    </section>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+      <h2>ボクトロボット　PDF（準備中）</h2>
+      <p>以下のリンクから、『ボクトロボット』のPDFデータをダウンロードできます。</p>
+      <p>ダウンロードして印刷し、厚紙などに貼ってご利用下さい。</p>
+      <!--<p><a href="zip/bokutorobotto.zip" rel="external">『ボクトロボット』（zipデータ　約16MB）</a></p>-->
+    </section>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <p>茨城大学紙芝居研究会</p>
+  </div>
+</div>
+<script type="text/javascript">
+$('#btn_gaKyakuhonTojiru').on('click', function(){$('#gaKyakuhon').collapsible({collapsed: true});});
+</script>
+</body>
+</html>

@@ -1,0 +1,281 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+<title>ぎゅうにゅうこぞう</title>
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="apple-touch-icon" href="apple-touch-icon-precomposed.png">
+<link rel="stylesheet" href="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.css" />
+<script src="http://code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="http://code.jquery.com/mobile/1.4.4/jquery.mobile-1.4.4.min.js"></script>
+<style type="text/css">
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjapanese.css);
+html {
+	/*font-family:'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ',Meiryo,'ＭＳ Ｐゴシック',sans-serif;*/
+	font-family: 'Noto Sans Japanese', serif;
+	font-size: 14px;
+	line-height: 1.3;
+}
+.ui-header .ui-title, .ui-btn {
+	overflow: visible !important;
+	white-space: normal !important;
+}
+li {
+	overflow: visible !important;
+	white-space: normal !important;
+}
+.ui-content img#coverGraphic {
+	width: 100%;
+}
+.ui-footer {
+	font-weight: normal;
+	font-size: .9em;
+	text-align: center;
+}
+.bamen {
+	background-color: #eeeeee;
+}
+.bamen img {
+	width: 100%;
+}
+.bamen .bamenBango {
+	text-align: center;
+	padding-top: 0.3em;
+}
+dt {
+	font-weight: 600;
+}
+@media screen and (min-width: 321px) {
+.w560h315 {
+	width: 315px;
+	height: 177px;
+}
+.w420h315 {
+	width: 315px;
+	height: 236px;
+}
+}
+@media screen and (max-width: 320px) {
+.w560h315 {
+	width: 251px;
+	height: 141px;
+}
+.w420h315 {
+	width: 251px;
+	height: 188px;
+}
+}
+</style>
+</head>
+
+<body>
+<div data-role="page" data-fullscreen="true">
+  <div data-role="header" data-position="fixed">
+    <h1>ぎゅうにゅうこぞう</h1>
+  </div>
+  <div role="main" class="ui-content"> <img src="img/1f.png" id="coverGraphic">
+    <h2>ぎゅうにゅうこぞう</h2>
+    <h3>作品紹介</h3>
+    <dl>
+      <dt>あらすじ</dt>
+      <dd>
+        <p>けんたくんが外から遊んで帰ってくると、お家には誰もおらず、机の上には見かけない牛乳パックが。けんたくんが「へんな模様の牛乳だなぁ」とパックを眺めていると、突然、牛乳パックがしゃべりだしました。それは、「ぎゅうにゅうこぞう」だったのです。けんたくんとぎゅうにゅうこぞうは、一緒に遊ぶことにしたのですが……</p>
+      </dd>
+      <dt>制作年</dt>
+      <dd>20xx</dd>
+      <dt>脚本</dt>
+      <dd>茨城大学紙芝居研究会</dd>
+      <dt>画</dt>
+      <dd>茨城大学紙芝居研究会</dd>
+      <dt>場面</dt>
+      <dd>16場面</dd>
+    </dl>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+      <h2>ぎゅうにゅうこぞう　動画（準備中）</h2>
+    </section>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u" data-collapsed="true" id="gaKyakuhon">
+      <h2>ぎゅうにゅうこぞう　画・脚本</h2>
+      <section class="bamen">
+        <div class="bamenBango">#1</div>
+        <img src="img/1f.png">
+        <div class="serifu">
+          <p>ぎゅうにゅうこぞう</p>
+          <p>この子はけんたくん。今日も外で元気に遊んできました。</p>
+          <p>けんた「あーたのしかった。おかあさん、ただいま！　…あれ？　買い物かなぁ？　つまんないなぁ」</p>
+          <p>ひとりで家の中をうろうろしていると、テーブルの上に牛乳が置いてあることに気が付きました。</p>
+          <p>だけど…（ぬきながら）</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#2</div>
+        <img src="img/2f.png">
+        <div class="serifu">
+          <p>けんた「あれれ？　こんな牛乳、見たことないぞ？　へんな模様だなぁ」</p>
+          <p>けんたくんがじっと見つめていると、</p>
+          <p>ぎゅうにゅうこぞう「へへへっ、よくわかったな」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#3</div>
+        <img src="img/3f.png">
+        <div class="serifu">
+          <p>ぎゅうにゅうこぞう「じゃーん！　おいらはぎゅうにゅうこぞう！　一緒に遊ぼうぜ！」</p>
+          <p>ぎゅうにゅうが男の子に変身したのです。</p>
+          <p>けんたくんはびっくり。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#4</div>
+        <img src="img/4f.png">
+        <div class="serifu">
+          <p>ぎゅうにゅうこぞう「ねぇねぇ、何して遊ぶ？　かけっこする？」</p>
+          <p>ぎゅうにゅうこぞうは早く遊びたくてはしゃぎまわっています。</p>
+          <p>けんた「家の中でかけっこしたらおかあさんに怒られちゃうよ！　外で遊ぼう！」</p>
+          <p>ぎゅうにゅうこぞう「うん！　いいよ！」</p>
+          <p>二人は外へ出ました。</p>
+          <p>（半分抜く）</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#5</div>
+        <img src="img/5f.png">
+        <div class="serifu">
+          <p>けんた「じゃあ、キャッチボールしよう！　ぼくがボールを投げるからぎゅうにゅうこぞうはキャッチしてね！」</p>
+          <p>ぎゅうにゅうこぞう「うん！　分かった」</p>
+          <p>けんた「いくよ、えぃ！」</p>
+          <p>けんたくんの投げたボールはぎゅうにゅうこぞうの方へまっすぐ飛んでいきます。</p>
+          <p>ぎゅうにゅうこぞう「よーし、キャッチ！…あれぇ？」（全部抜く）</p>
+          <p>ボールはぎゅうにゅうこぞうの手に当たりましたが、通り抜けて転がっていきました。</p>
+          <p>ぎゅうにゅうこぞう「そうか！　おいら、牛乳だからボールはキャッチできないんだ！」        </p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#6</div>
+        <img src="img/6f.png">
+        <div class="serifu">
+          <p>ぎゅうにゅうこぞう「せっかく遊べると思ったのに…」</p>
+          <p>けんたくんのボールは牛乳でベトベト。がっかりしてしまったぎゅうにゅうこぞうに、けんたくんは言いました。</p>
+          <p>けんた「じゃあ、トランプしようよ！　そーっとつかめば、きっと持てるよ！」</p>
+          <p>二人は家の中に戻り、トランプをすることにしました。</p>
+          <p>（抜きながら）        </p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#7</div>
+        <img src="img/7f.png">
+        <div class="serifu">
+          <p>けんた「順番にカードを引いていって、ジョーカーを持っていた方が負けだよ」</p>
+          <p>ぎゅうにゅうこぞう「うん！　よーし、がんばるぞ！」</p>
+          <p>けんた「じゃあ、手札を配るね！　はい、これがぎゅうにゅうこぞうの分！」</p>
+          <p>ぎゅうにゅうこぞう「ありがとう！」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#8</div>
+        <img src="img/8f.png">
+        <div class="serifu">
+          <p>ぎゅうにゅうこぞうは、そーっと手を伸ばします。すると、トランプを持つことが出来ました！</p>
+          <p>ぎゅうにゅうこぞう「やった！　持てた！」</p>
+          <p>ところが、（抜きながら）</p>
+          <p>けんた「あれれ…？　トランプがヘロヘロになっちゃった！」</p>
+          <p>ぎゅうにゅうこぞう「そうか！　おいら、牛乳だから紙にしみこんじゃうんだ！」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#9</div>
+        <img src="img/9f.png">
+        <div class="serifu">
+          <p>ぎゅうにゅうこぞう「せっかくトランプ持てたのに…」</p>
+          <p>けんたくんのトランプは牛乳でベトベトのヘロヘロになってしまいました。</p>
+          <p>しょんぼりしてしまったぎゅうにゅうこぞうに、けんたくんは言いました。</p>
+          <p>けんた「それなら、イヌのペロと遊ぼう！　ぺろならいくらぬれても平気だよ！」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#10</div>
+        <img src="img/10f.png">
+        <div class="serifu">
+          <p>ふたりは家の外、ペロのいるところへやってきました。</p>
+          <p>けんた「ペロ、この子はぎゅうにゅうこぞうだよ」</p>
+          <p>ぎゅうにゅうこぞう「こんにちは、ペロ！　おいらぎゅうにゅうこぞう！」</p>
+          <p>ペロ「ワンワン！」</p>
+          <p>ペロはすぐになついてくれました。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#11</div>
+        <img src="img/11f.png">
+        <div class="serifu">
+          <p>ペロ「ワンワン！」</p>
+          <p>ペロはぎゅうにゅうこぞうの顔や手をペロペロとなめていきます。</p>
+          <p>ぎゅうにゅうこぞう「くすぐったいなあ、やめてよー！」</p>
+          <p>ペロペロペロペロ。ぎゅうにゅうこぞうは嬉しくてたまりません。</p>
+          <p>ぎゅうにゅうこぞう「かわいいなぁ、ペロ」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#12</div>
+        <img src="img/12f.png">
+        <div class="serifu">
+          <p>しかし、しばらくすると、</p>
+          <p>けんた「あれ？　ぎゅうにゅうこぞう？」</p>
+          <p>ぎゅうにゅうこぞう「ん？　なぁに？」</p>
+          <p>けんた「なんか、ちいさくなってない？」</p>
+          <p>ぎゅうにゅうこぞう「え？　そうかな…？」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#13</div>
+        <img src="img/13f.png">
+        <div class="serifu">
+          <p>けんた「ほら、ちっちゃいよ！」</p>
+          <p>ぎゅうにゅうこぞう「そんなこと…　あっ…　（抜く）とけちゃった」</p>
+          <p>ぎゅうにゅうこぞうはついに、水たまりのようになってしまいました。 </p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#14</div>
+        <img src="img/14f.png">
+        <div class="serifu">
+          <p>けんた「消えちゃうの？」</p>
+          <p>けんたくんがきくと、</p>
+          <p>ぎゅうにゅうこぞう「うん！　でも、また来るよ！　人間の遊びはできなかったけど、楽しかったし！」</p>
+          <p>そうしているうちに、ぎゅうにゅうこぞうはどんどん小さくなっていきました。</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#15</div>
+        <img src="img/15f.png">
+        <div class="serifu">
+          <p>ぎゅうにゅうこぞう「ばいばーい！」</p>
+          <p>けんた「また牛乳のむからねー！」</p>
+        </div>
+      </section>
+      <section class="bamen">
+        <div class="bamenBango">#15</div>
+        <img src="img/16f.png">
+        <div class="serifu">
+          <p>それからすぐ、お母さんが帰ってきて、けんたくんはおやつに牛乳をついでもらいました。</p>
+          <p>そして小さくつぶやきました。</p>
+          <p>けんた「またあしたも、遊ぼうね」</p>
+          <p>おしまい</p>
+        </div>
+      </section>
+      <a href="#" class="ui-btn ui-icon-arrow-u" id="btn_gaKyakuhonTojiru">閉じる</a> </section>
+    <section data-role="collapsible" data-collapsed-icon="carat-d" data-expanded-icon="carat-u">
+      <h2>ぎゅうにゅうこぞう　PDF</h2>
+      <p>以下のリンクから、『ぎゅうにゅうこぞう』のPDFデータをダウンロードできます。</p>
+      <p>ダウンロードして印刷し、厚紙などに貼ってご利用下さい。</p>
+      <p><a href="zip/gyuunyuukozou.zip" rel="external">『ぎゅうにゅうこぞう』（zipデータ　約13MB）</a></p>
+    </section>
+  </div>
+  <div data-role="footer" data-position="fixed">
+    <p>茨城大学紙芝居研究会</p>
+  </div>
+</div>
+<script type="text/javascript">
+$('#btn_gaKyakuhonTojiru').on('click', function(){$('#gaKyakuhon').collapsible({collapsed: true});});
+</script>
+</body>
+</html>
